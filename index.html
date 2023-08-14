@@ -13,16 +13,15 @@
 </head>
 
 <body>
-<header>
-    
+<header style="background-color:#ffca3a;text-align:center">
     <h1 class="header1">Kalkulator Perhitungan Luas dan Keliling Bangun Datar</h1>
 </header>
 <main>
     <section class="input-section">
         <label for="tinggi-input">Tinggi Segitiga</label>
-        <input type="number" id="tinggi-input" placeholder="0">
+        <input type="number" id="tinggi-input" class="positive-number" placeholder="0" min="0">
         <label for="alas-input">Alas Segitiga</label>
-        <input type="number" id="alas-input" placeholder="0">
+        <input type="number" id="alas-input" class="positive-number" placeholder="0" min="0">
         <section>
             <button>Calculate</button>
             <button>Reset</button>

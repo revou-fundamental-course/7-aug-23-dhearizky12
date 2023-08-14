@@ -99,3 +99,18 @@ button:active {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+#tinggi-input,#alas-input{
+    width: 200px;
+}
+/* Untuk menghilangkan panah stepper */
+.positive-number::-webkit-inner-spin-button,
+.positive-number::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Untuk memastikan input tetap rapi */
+.positive-number {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
