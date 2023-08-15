@@ -63,7 +63,7 @@ input:focus {
     border-color: #65451F;
 }
 
-button {
+.button-calculate {
     padding: 10px 20px;
     color: #FFFFFF;
     font-size: 16px;
@@ -80,7 +80,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button-calculate:hover {
     background: #F3904F;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3B4371, #F3904F);
@@ -89,7 +89,7 @@ button:hover {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-button:active {
+.button-calculate:active {
     transform: translateY(-5px);
     background: #bdc3c7;
     /* fallback for old browsers */
@@ -114,3 +114,7 @@ button:active {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+
+.container {
+    width: 100%;
+  }
